@@ -1,0 +1,634 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version,ie > 8
+*/
+
+body{
+    margin: auto;
+}
+
+#container
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.subcontainer{
+    width: 100%;
+}
+@media all and (max-width: 992px)
+{
+    .subcontainer
+    {
+        width: 1000px;
+    }
+}
+
+
+/****       1st section     ****/
+#purple_container{
+    background-color: #7451EB;
+    height: 312px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+@media all and (max-width: 992px)
+{
+    #purple_container
+    {
+        display: inline;
+        height: 465px;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #purple_container
+    {
+        height: 500px;
+    }
+}
+
+#purple_container #introduction{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 807px;
+}
+@media all and (max-width: 992px)
+{
+    #purple_container #introduction
+    {
+        display: inline;
+    }
+}
+
+#purple_container #introduction #text{
+    -webkit-box-flex: 1.2;
+        -ms-flex: 1.2;
+            flex: 1.2;
+}
+
+#purple_container #introduction #text h1{
+    color: white;
+    margin-left: 98px;
+    padding-top: 0;
+    margin-top: 55px;
+    margin-bottom: 0;
+    font-family: arial;
+    font-size: 1.8em;
+}
+@media all and (max-width: 992px)
+{
+    #purple_container #introduction #text h1
+    {
+        text-align: center;
+        margin-left:0;
+        margin-top: 10px;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #purple_container #introduction #text h1
+    {
+        font-size: 2.7em;
+    }
+}
+
+#purple_container #introduction #text #job{
+    margin-left: 98px;
+    padding-right: 0;
+    margin-right: 170px;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #46ECA3;
+    color: #133668;
+    font-family: arial;
+    font-size: large;
+    text-align: center;
+}
+@media all and (max-width: 992px)
+{
+    #purple_container #introduction #text #job
+    {
+        margin-right:0;
+        margin-left: 0;
+        font-size: 1.3em;
+        margin-top: 5px;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #purple_container #introduction #text #job
+    {
+        font-size: xx-large;
+    }
+}
+
+#purple_container #introduction #text #presentation{
+    padding-left: 91.7px;
+    color: white;
+    padding-top: 35px;
+    font-family: Arial;
+}
+@media all and (max-width: 992px)
+{
+    #purple_container #introduction #text #presentation
+    {
+        font-size: 1.5em;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #purple_container #introduction #text #presentation
+    {
+        font-size: 1.8em;
+    }
+}
+
+#purple_container #introduction #photo{
+    -webkit-box-flex: 0.95;
+        -ms-flex: 0.95;
+            flex: 0.95;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#purple_container #introduction #photo #adrien{
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+@media all and (max-width: 992px)
+{
+    #purple_container #introduction #photo #adrien
+    {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    }
+}
+
+
+/****       2nd section     ****/
+#white_container{
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+@media all and (max-width: 992px)
+{
+    #white_container
+    {
+        display: inline;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #white_container
+    {
+        height: 550px;
+    }
+}
+
+#white_container #skills{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 807px;
+    height: 364.5px;
+}
+@media all and (max-width: 992px)
+{
+    #white_container #skills
+    {
+        width: 1000px;
+    }
+}
+
+#white_container #skills #image{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+@media all and (max-device-width: 501px)
+{
+    #white_container #skills #image
+    {
+        display: none;
+    }
+}
+
+#white_container #skills #image #face{
+    padding-left: 63.6px;
+}
+
+#white_container #skills #text{
+    -webkit-box-flex: 1.5;
+        -ms-flex: 1.5;
+            flex: 1.5;
+    color: #526D91;
+    font-family: arial;
+}
+@media all and (max-device-width: 501px)
+{
+    #white_container #skills #text
+    {
+        padding-left: 50px;
+    }
+}
+
+#white_container #skills #text h2{
+    padding-top: 78.8px;
+    margin-top: 0;
+    color: #133668;
+    font-size: 1.4em;
+}
+@media all and (max-width: 992px)
+{
+    #white_container #skills #text h2
+    {
+    padding-top: 50px;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #white_container #skills #text h2
+    {
+        font-size: 2.6em;
+    }
+}
+
+#white_container #skills #text h2 em{
+    font-style: normal;
+    background-color: #46ECA3;
+    color: #133668;
+    padding-right: 7px;
+    padding-left: 4px;
+}
+
+#white_container #skills #text p, #white_container #skills #text ul{
+    font-size: 0.74em;
+}
+@media all and (max-width: 992px)
+{
+    #white_container #skills #text p, #white_container #skills #text ul
+    {
+    font-size: 1em;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #white_container #skills #text p, #white_container #skills #text ul
+    {
+        font-size: 1.6em;
+    }
+}
+
+/* ------ Section NOS PROJETS------ */
+#nos_projets
+{
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+#nos_projets h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Roboto-Medium, serif;
+    font-size: 1.75em;
+}
+
+/*decoration: ---*--- */
+.decoration
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.line
+{
+    color: #ebebeb;
+    margin-top: -17.5px;
+    position: relative;
+}
+
+/*blue circle properties*/
+.circles
+{
+    background: #5cadd3;
+    border-radius: 50%;
+    height: 12.5px;
+    width: 12.5px;
+    position: absolute;
+    top: 56%;
+    left: 45%;
+    box-shadow: 0 0 0 5px white;
+}
+.text_intro
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.description
+{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    line-height: 160%;
+    margin-bottom: 50px;
+}
+
+#intro_nos_projets
+{
+    margin-right: 8%;
+    margin-left: 1.75%;
+}
+
+#projets_list
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 8%;
+    margin-left: 1.75%;
+}
+#projets_list a
+{
+    color: #64686d;
+    padding: 9px;
+    background-color: #e5e5e5;
+    font-family: Roboto-Medium, serif;
+    font-size: 0.8em;
+}
+#projets_list a:hover
+{
+    color: white;
+    background-color: #5cadd3;
+    box-shadow: inset 0px -4px 0px #4494bb;
+    font-family: Roboto-Bold, serif;
+}
+#projets_list a:hover::after
+{
+    display: block;
+    position: relative;
+    top: 3px;
+    height:0;
+    text-align: center;
+    content :"\25BC";
+    color: #4494bb;
+    transform:scalex(2);
+}
+
+#all_works
+{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#portfolio
+{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#images_portfolio
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-right: 8%;
+    margin-left: 1.75%;
+}
+
+.images
+{
+    position: relative;
+    margin: 15px;
+}
+
+#nos_projets img
+{
+    width: 240px; 
+}
+
+#images_portfolio h3
+{
+    margin-top: 0px;
+    padding-top: 10px;
+    font-family: Roboto-Bold, serif;
+}
+#images_portfolio p
+{
+    font-family: Roboto-Light,Roboto-Medium, serif;
+    margin-bottom: 12px
+}
+#images_portfolio .text
+{
+    position: absolute;
+    bottom: 2%;
+    width:100%;
+    white-space: nowrap;
+    background: rgb(50, 50, 50); /* Fallback for older browsers without RGBA-support */
+    background: rgba(50, 50, 50, 0.5);
+    color: white;
+    font-weight: bold;
+    visibility: hidden;
+    font-size: 0.8em;
+}
+#images_portfolio .text h3,#images_portfolio .text p
+{
+    padding-left: 4%;
+}
+#images_portfolio .images:hover .text
+{
+    visibility: visible;
+}
+
+.circle_eye_white
+{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: -27.5%;
+    left: 80%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px white;
+    text-align: center;
+    display: table;
+}
+#images_portfolio .fa-eye
+{   
+    padding: 0.8em;
+    color: white;
+    background-color: transparent;
+}
+#images_portfolio .eye
+{
+    visibility: hidden;
+}
+#images_portfolio .images:hover .eye
+{
+    visibility: visible;
+}
+
+@media all and (max-width: 992px)
+{
+    #images_portfolio, #intro_nos_projets
+    {
+        margin: 0;
+    }
+    #projets_list
+    {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+@media all and (max-device-width: 501px)
+{
+    #nos_projets img
+    {
+        width: 130px; 
+    }
+    .images
+    {
+        position: relative;
+        margin: 10px;
+    }
+    #images_portfolio .images:hover .eye
+    {
+        visibility: hidden;
+    }
+    #images_portfolio .images:hover .text
+    {
+        visibility: hidden;
+    }
+}
+/* ------------------------------------- */
+
+/****       last section     ****/
+#blue_container{
+    background-color: #133668;
+    height: 267px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;   
+}
+@media all and (max-device-width: 501px)
+{
+    #blue_container
+    {
+        height: 300px;
+    }
+}
+
+#blue_container #social_networks{
+    width: 807px;
+}
+@media all and (max-width: 992px)
+{
+    #blue_container #social_networks
+    {
+        width: 1000px;
+    }
+}
+
+#blue_container #social_networks #text{
+    padding-top: 74px;
+    padding-left: 89.4px;
+    color: white;
+}
+
+#blue_container #social_networks #text #invitation{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 1.8em;
+}
+@media all and (max-device-width: 501px)
+{
+    #blue_container #social_networks #text #invitation
+    {
+        font-size: 2.4em;
+    }
+}
+
+#blue_container #social_networks #text #contact em{
+    font-family: Arial;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 1.15em;
+    font-style: normal;
+    background-color: #46ECA3;
+    color: #133668;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+@media all and (max-device-width: 501px)
+{
+    #blue_container #social_networks #text #contact em
+    {
+        font-size: 1.6em;
+    }
+}
+
+#blue_container #social_networks #text #contact span{
+    font-size: 1.35em;
+    font-family: 'Arial Narrow';
+    font-weight: 1;
+}
+@media all and (max-device-width: 501px)
+{
+    #blue_container #social_networks #text #contact span
+    {
+        font-size: 1.7em;
+    }
+}
+
+#blue_container #social_networks #logos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 89.4px;
+    padding-top: 38.3px;
+}
+@media all and (max-device-width: 501px)
+{
+    #blue_container #social_networks #logos #twitter img,
+    #blue_container #social_networks #logos #github img,
+    #blue_container #social_networks #logos #linkedin img
+    {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+#blue_container #social_networks #logos #twitter,#social_networks #logos #github{
+    margin-right: 18.4px;
+}
